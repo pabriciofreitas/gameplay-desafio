@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gameplay/ui/pages/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,13 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'GamePlay',
       theme: ThemeData(
-        primaryColor: const Color(0xFF0A1033),
+        primaryColor: const Color(0xFF0E1647),
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("GamePlay"),
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(),
     );
   }
 }

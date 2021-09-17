@@ -8,12 +8,20 @@
          "name": "gameplay",
          "request": "launch",
          "type": "dart"
+         
       },
       {
-         "name": "gameplay (profile mode)",
+         "name": "gameplay (debug mode)",
          "request": "launch",
          "type": "dart",
          "flutterMode": "debug"
-      }
+      },
+      {
+         "name": "gameplay (release mode)",
+         "request": "launch",
+         "type": "dart",
+         "flutterMode": "release"
+      },
+     
    ]
 }
